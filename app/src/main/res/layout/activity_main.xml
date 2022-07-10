@@ -10,6 +10,13 @@
     <fragment android:name="com.cst2335.fragment.BlankFragment1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="1"
         android:id="@+id/fragment1"/>
+
+    <fragment android:name="com.cst2335.fragment.BlankFragment2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/fragment2"/>
 
 </LinearLayout>
