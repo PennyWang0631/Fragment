@@ -7,16 +7,24 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment android:name="com.cst2335.fragment.BlankFragment1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:id="@+id/fragment1"/>
 
-    <fragment android:name="com.cst2335.fragment.BlankFragment2"
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="replace" />
+
+    //为了切换fragment（UI）
+    <FrameLayout
+        android:id="@+id/framelayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:id="@+id/fragment2"/>
+        android:background="@color/purple_200"></FrameLayout>
 
 </LinearLayout>
